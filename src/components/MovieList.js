@@ -25,9 +25,9 @@ const navigation = useNavigation();
                             <View className="space-y-1 mr-4" >
                                 <Image
                                     source={{
-                                        uri: `https://wwww.themoviedb.org/t/p/w500/${item.poster_path}`,
+                                        uri: `https://image.tmdb.org/t/p/w185${item.poster_path}`,
                                     }}
-                                    style={{width: width * 0.33,height: height * 0.22 }}
+                                    style={{width:300,height:200 }}
                                     className="rounded-3xl"
                                 />
                             </View>
